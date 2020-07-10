@@ -1,0 +1,51 @@
+.dashboard{
+       height: 45px;
+       background-color: black;
+       display: flex;
+       justify-content: space-between;
+       flex-flow: row;
+       transition: 0.6s;
+}
+.heading-top{
+    height:5;
+    padding-top: 5px;
+}
+
+.nav .active a {
+    color: #ed145b;
+    font-size: bolder;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    color: #ed145b;
+}
+
+.nav a:hover {
+    color: #ed145b;
+    transition: 0.5s
+}
+
+.nav div {
+    margin-left: 15px;
+}
+
+.nav a {
+    font-size: 13;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.drop ul li{
+    padding-left: 10;
+    padding-right: 10px;
+   
+}
+
+
+.logout button:hover{
+    background-color: #ed145b;
+}

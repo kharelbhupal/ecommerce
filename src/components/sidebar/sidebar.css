@@ -1,0 +1,28 @@
+.sidebar{
+    float: left;
+    height: 100vh;
+    width: 13%;
+    background: black;
+    
+        
+}
+.sidebar:after{
+    clear: both;
+}
+
+ul{
+    text-decoration: none;
+}
+li{
+    margin-top:2em ;    
+}
+a{
+    color: white;
+     font-size: 15;
+     font-weight: 500;
+}
+a:hover {
+    color:#ed145b;
+    text-decoration: none;
+   
+}

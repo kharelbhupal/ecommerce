@@ -1,0 +1,117 @@
+.name,
+.mail-username,
+.passwords,
+.address,
+.numbers,
+.gender-dob{
+    display: flex;
+    flex-flow: row;
+} 
+ /* .form-wrapper,.name,.mail-username{
+
+      display: flex;
+      align-items: stretch;
+     
+} */
+.registerPage{
+    border-radius: 5px;
+    margin: 40px auto 20px auto;
+    border:1px solid rgb(197, 194, 194);
+    width: 30%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+     
+}
+.registerPage:hover{
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+0 10px 10px rgba(0, 0, 0, 0.22);
+}
+input{
+    font-size: 14px;
+    width: 100%;
+}
+label{
+    font-weight: 500;
+}
+.name{
+    padding: 20;
+}
+.heading{
+    padding: 10px 10px 40px 10px;
+    border-radius: 5px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    text-align: center;
+   margin-bottom: 50px;
+   color: #ed145b;
+}
+.Registration-wrapper{
+    
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.form-wrapper{
+    margin-top: 0px;
+}
+.buttons{
+    text-align: center;
+   
+}
+.buttons p{
+    margin-top: 2em;
+}
+.danger{
+    color:red;
+}
+.ourButton {
+    border: none;
+    color: black;
+    background-color: transparent;
+}
+
+.ourButton:hover {
+    background-color: #ed145b;
+}
+.sign{
+    color: #ed145b;
+}
+.sign:hover {
+    color: #ed145b;
+}
+.red{
+    color: #ed145b;
+}
+.red:hover {
+    color: #ed145b;
+}
+@media only screen and (max-width: 2000px) {
+    .registerPage {
+        margin: 50px auto 20px auto;
+        align-items: center;
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .registerPage {
+        margin: 70px auto 20px auto;
+        align-items: center;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .registerPage {
+        margin: 70px auto 20px auto;
+        align-items: center;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .registerPage {
+        margin: 70px auto 20px auto;
+        align-items: center;
+        width: 80%;
+    }
+}
