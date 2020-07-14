@@ -38,8 +38,9 @@ const ProtectedRoute = ({component:Component,...rest})=>{
             <nav>
                 <div className="nav-wrapper container-fluid"> 
                 <Header  />
-                <Dropdown/>
                 <Search/>
+                <Dropdown/>
+                
                 </div>
             </nav>
             <div className="main">
