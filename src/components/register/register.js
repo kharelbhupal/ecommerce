@@ -131,7 +131,7 @@ export class Register extends Component{
         //     console.log('prev state >>', prevState);
     }
 
-    // destory
+ 
     componentWillUnmount() {
         // life cycle stage which will run when the component is destroyed
         // console.log('component is destroyed');
@@ -140,12 +140,12 @@ export class Register extends Component{
     render(){
         let btn = this.state.isSubmitting
         ?<button disabled={true} className="btn ourButton btn-info">Submitting</button>
-        :<button disabled={!this.state.isValidForm} onClick={this.handleSubmit} className="btn ourButton btn-primary">Register</button>
+        :<button disabled={!this.state.isValidForm} onClick={this.handleSubmit} className="btn ourButton btn-primary">Submit <i class="material-icons right">send</i></button>
         return (
         <div className="container registerPage">    
             
                 <div className="heading">
-                    <h2>Registraion form</h2>
+                    <h4>Registraion form</h4>
                     
                 </div>
             <div className="Registration-wrapper form-group">
@@ -168,7 +168,7 @@ export class Register extends Component{
                             </div>
                         </div>
                         
-                        <div className="mail-username">
+                        <div className="col-md-12">
                             <div className="mail col-md-12">
                                 <label>Email *</label>
                                 <input

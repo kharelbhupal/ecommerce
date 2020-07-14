@@ -88,11 +88,11 @@ export class Login extends Component{
                         <br></br>
                         <button 
                         onClick={this.handleSubmit} 
-                        class="btn ourButton btn-primary">Login</button>
+                        class="btn login waves-effect waves-light">Login</button>
 
                     </form>
                     <p>Dont have an account ? </p>
-                    <p ><Link className="red" to='/register'>Click to Register</Link></p>
+                    <p ><Link className="registration" to='/register'>Click to Register</Link></p>
                     
                     </div>
             </div>

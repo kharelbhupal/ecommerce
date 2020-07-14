@@ -16,27 +16,19 @@ export class Header extends Component {
 
     render() {
         return (
-           <div className="heading-top">
-                 <div className="topmenu container">
-                 
-                    <div className="nav">	
-                        <div>
-                            <Link className="bold" to="/">Logo</Link>
-                        </div>			
-                        <div className="active">
-                            <Link className="bold active" to="/">HOME</Link>
-                        </div>
-                        <div>
-                            <Link className="bold" to="/register">REGISTER</Link>
-                        </div>
-                        <div><Link className="bold" to="/dashboard"></Link></div>
-                        <div><Link className="bold" to=""></Link></div>
-                        <div><Link className="bold" to=""></Link></div>
-                        
-                        </div>
-                        
-		        </div>
-            </div>
+        
+            <div className="left naving">
+            
+                <ul className="nav side">
+                    <li><Link className="bold" to="/h">LOGO</Link></li>
+                    <li><Link className="bold" to="/">Login</Link></li>
+                    <li><Link className="bold" to="/register">Register</Link></li>
+                    
+                </ul>
+               
+             
+         </div>
+        
         )
     }
 }

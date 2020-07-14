@@ -3,8 +3,10 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {Header} from './header/header.component';
 import {Login} from './login/login.component';
 import {Register} from './register/register';
+
 import Dropdown from './header/header-side/header.side';
 import './app.routing.css';
+import Search from './Search/Search';
 
 // import Sidebar from './sidebar/sidebar.component';
 // there are two types of router public and private
@@ -33,11 +35,13 @@ const ProtectedRoute = ({component:Component,...rest})=>{
 
         <React.Fragment>
         
-            
-             <div className="dashboard container-fluid"> 
-                 <Header  />
+            <nav>
+                <div className="nav-wrapper container-fluid"> 
+                <Header  />
                 <Dropdown/>
-            </div>
+                <Search/>
+                </div>
+            </nav>
             <div className="main">
             <Component {...routeProps}></Component>
             </div>
@@ -54,10 +58,11 @@ const PublicRoute = ({component:Component,...rest})=>{
         <React.Fragment>
         
             
-             <div className="dashboard container-fluid"> 
-                 <Header dis={false} />
-               
-            </div>
+             <nav>
+                <div className="nav-wrapper container-fluid"> 
+                 <Header  />
+                </div>
+            </nav>
             
             
             <div className="main">

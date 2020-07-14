@@ -1,33 +1,37 @@
+:root{
+    --maincolor:#041121;
+    --buttonColor:#28559a;
+}
+
 .dashboard{
-       height: 45px;
-       background-color: black;
        display: flex;
        justify-content: space-between;
        flex-flow: row;
        transition: 0.6s;
 }
 .heading-top{
-    height:5;
-    padding-top: 5px;
+    height:0;   
+}
+.side li a:hover{
+    background-color: none;
+}
+nav{
+    background-color: var(--maincolor); 
 }
 
-.nav .active a {
-    color: #ed145b;
-    font-size: bolder;
-}
 
 .nav ul {
+    margin-top: 0;
     list-style: none;
 }
 
-.nav ul li {
-    color: #ed145b;
+
+.right ul li:hover {
+    background-color: none;
+
 }
 
-.nav a:hover {
-    color: #ed145b;
-    transition: 0.5s
-}
+
 
 .nav div {
     margin-left: 15px;
@@ -43,6 +47,10 @@
     padding-left: 10;
     padding-right: 10px;
    
+}
+.logout:hover{
+    background-color: none;
+
 }
 
 

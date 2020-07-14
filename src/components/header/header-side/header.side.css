@@ -1,0 +1,105 @@
+ :root{
+     --bg:#242526;
+     --bg-accent:#484a4d;
+     --text-color:#dadce1;
+     --speed:500ms;
+     --nav-size:60px;
+     --border-radius:8px;
+     --speed:500ms;
+ }
+
+ ul{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+ a{
+     color: var(--text-color);
+     text-decoration: none;
+ }
+ .navingbar{
+     background-color: transparent;
+     height:var(--nav-size);
+    padding: 0 1rem;
+    border: 0;
+     
+ }
+ .naving{
+    margin-right: 1em;
+ }
+ 
+ .navingbar-nav{
+     background-color: transparent;
+    max-width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: flex-end;
+ }
+ .naving-item{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .naving-item a{
+     color: black;
+     font-weight: 500;
+ }
+ 
+ .names-button{
+     
+     border-radius: 50%;
+     padding:5px;
+     margin: 2px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .names-button:hover{
+     background-color: red;
+ }
+
+ .logout{
+     margin: 15px 0px 0px 25px;
+ }
+
+
+ .dropingdown{
+     position: absolute;
+     top: 61px;
+     width:250px;
+     transform:translate(-20%);
+     border:var(--border);
+     border-radius: 5px;
+     overflow: hidden;
+     overflow: hidden;
+     background-color:whitesmoke;
+     border: 1px solid rgb(165, 163, 163);
+ }
+ .menu-item{
+     border-bottom: 1px solid rgb(211, 209, 209);
+     color: white;
+     font-weight: 400;
+    
+ }
+ 
+ 
+ /* <div className="right heading-top hello">
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><Link className="bold" to="/h">Add products</Link></li>
+                    <li><Link className="bold" to="/y">View products</Link></li>
+                    <li><Link className="bold" to="/e">Search products</Link></li>
+                    <li><Link className="bold" to="/f">Messages</Link></li>
+                    <li><Link className="bold" to="/dd">Profile</Link></li>
+                    <li><Link className="bold" to="/ee">Setting</Link></li>
+                   
+                </ul>
+            <nav>
+                <div className="nav-wrapper">
+                    <ul className="right hide-on-med-and-down side">
+                        <li><Link className="dropdown-trigger" data-target="dropdown1">Dropdown<i className="material-icons right">arrow_drop_down</i></Link></li>
+                        <li><Link className="bold btn" to="/">Logout</Link></li>
+                    </ul>
+                </div>
+            </nav>
+             
+         </div> */
