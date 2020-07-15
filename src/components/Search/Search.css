@@ -1,0 +1,17 @@
+input[type=search]{
+    background-color: wheat !important;
+    margin-top: 12 !important;
+    color: black;
+    padding-left:60px !important;
+    text-align: left;
+    width: 90% !important;
+    border-radius: 4px !important;
+    height: 40 !important;
+}
+.adjust{
+
+    width: 35% !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
