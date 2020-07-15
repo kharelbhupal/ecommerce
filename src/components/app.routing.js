@@ -91,9 +91,6 @@ const PublicRoute = ({component:Component,...rest})=>{
 export const Routing = ()=>{
     return (
         <Router>
-
-           
-           
             <Switch>
                 
                 <ProtectedRoute path="/dashboard" component={Dashboard}></ProtectedRoute>

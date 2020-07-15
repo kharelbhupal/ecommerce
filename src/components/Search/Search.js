@@ -20,7 +20,7 @@ const MainSearch  = (props)=>{
                 className="adjust"
                 placeholder="Search Items"
                 ></input>
-                <label class="label-icon" for="search"><i class="black-text material-icons">search</i></label>
+                <div className="search-icon"><i class="left black-text material-icons">search</i></div>
                 </div> 
             </form>   
               

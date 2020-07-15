@@ -7,6 +7,11 @@ input[type=search]{
     width: 90% !important;
     border-radius: 4px !important;
     height: 40 !important;
+    position: relative;
+}
+input[type=search]:hover{
+  
+   box-shadow: 0 0 4px #d6b007 !important;
 }
 .adjust{
 
@@ -14,4 +19,19 @@ input[type=search]{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.search-icon{
+    
+    position:absolute;
+    top: -12;
+    left: 10;
+}
+.search-icon:after{
+    content: "";
+    height: 38px;
+    width: 3%;
+    background-color: rgb(146, 145, 145);
+    position: absolute;
+    top: 13;
+    left: 35;
 }
